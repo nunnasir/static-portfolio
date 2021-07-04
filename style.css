@@ -7,13 +7,20 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .developer-name {
     color: orange;
 }
 
 section {
-    display: flex;
     margin-bottom: 150px;
+}
+
+.flexible-container {
+    display: flex;
 }
 
 .half-width {
@@ -45,8 +52,40 @@ section {
     background-position: right;
 }
 
+.experience-area {
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
+.experience-area h3 {
+    color: orange;
+}
 
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+}
+
+#web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#web-eng-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, salmon);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
 
 
 
